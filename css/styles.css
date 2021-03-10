@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+
 body {
   height: 100%;
   width: 100%;
@@ -21,7 +23,9 @@ body {
 }
 .logo {
   grid-column: 2 / 3;
-  margin-top: 20px;
+  margin-top: 10px;
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 40px;
 }
 .nav {
   grid-column: 3 / 3;
@@ -34,6 +38,8 @@ body {
 }
 .nav_item {
   margin-left: 20px;
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 20px;
 }
 
 /************************************************Styling for the about section ************************/
@@ -41,12 +47,11 @@ body {
   grid-row: 2 / 3;
   /* background-color: red; */
   background-image: url(../images/katie-drazdauskaite-y6Fa0cHKJGc-unsplash.jpg);
-
   background-size: cover;
   /* filter: blur(8px); */
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 1fr 0.8fr;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
   /* height: 700px; */
 }
 .about_heading {
@@ -54,53 +59,75 @@ body {
   grid-column: 2 / 3;
   text-align: center;
   color: white;
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 50px;
 }
 .about_text {
   grid-row: 3 / 4;
   grid-column: 2 / 3;
-  color: white;
+  color: black;
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 20px;
 }
 /*************************************Styling for blogs/content*****************************************/
 .content_container {
   grid-row: 3 / 4;
-  background-color: rosybrown;
+  /* background-color: rosybrown; */
   display: grid;
-  grid-template-rows: repeat(4, 1fr);
+  /* grid-template-rows: repeat(4, 1fr); */
+  grid-template-rows: 2fr;
   grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); */
   grid-gap: 20px;
+  /* display: flex; */
 }
 .content_card_container {
   /* grid-row: 2 / 4;
     grid-column: 1 / 2; */
   /* border: 2px solid black; */
   /* margin: auto; */
-  grid-row: 1 / 4;
+  /* grid-row: 1 / 4; */
+  grid-row: 1 / 1;
   padding: 10px;
 }
 .content_card_one {
   text-align: center;
   border: 2px solid silver;
+  /* flex: 1; */
 }
 .content_card_two {
   text-align: center;
   border: 2px solid silver;
+  /* flex: 1; */
 }
 .content_card_three {
   text-align: center;
   border: 2px solid silver;
+  /* flex: 1; */
 }
-/* .content_card_two{
-    grid-row: 2 / 4;
-    grid-column: 2 / 3; 
-    border: 2px solid black;
+#button {
+  color: rebeccapurple;
+  text-decoration: none;
 }
-.content_card_three{
-    grid-row: 2 / 4;
-    grid-column: 3 / 4; 
-    border: 2px solid black;
-} */
 /***************************************Styling for footer**********************************************/
-.footer {
+.footer_container {
   grid-row: 4 / 4;
   background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  color: white;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.footer_copyright {
+  grid-column: 1 / 2;
+  text-align: center;
+}
+.footer_socials {
+  grid-column: 2 / 2;
+  text-align: center;
+}
+.footer_socials a {
+  margin-left: 10px;
+  color: white;
 }
