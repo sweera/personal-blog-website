@@ -1,1 +1,38 @@
 /*******************************Styles for responsive layout********************************************/
+@media screen and (max-width: 600px) {
+  body {
+    /* overflow-x: hidden !important; */
+  }
+  .container {
+    /* background-color: red; */
+    max-width: 100% !important;
+  }
+  .header_container {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    overflow: hidden !important;
+  }
+  .logo {
+    grid-column: 1 / 1 !important;
+  }
+  .nav {
+    grid-column: 2 / 2 !important;
+  }
+  /*************************************About Container***********************************************/
+  .about_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .about_heading {
+    grid-column: 1 / 1 !important;
+  }
+  .about_text {
+    grid-column: 1 / 1 !important;
+    margin-right: 20px !important;
+  }
+  .about_text p {
+    color: white !important;
+    padding: 10px !important;
+    white-space: initial !important;
+  }
+}
