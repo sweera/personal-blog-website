@@ -22,7 +22,6 @@ body {
   background-color: black;
   display: grid;
   grid-template-columns: 300px 1fr 2fr;
-  color: whitesmoke;
 }
 .logo {
   grid-column: 2 / 3;
@@ -44,7 +43,10 @@ body {
   font-family: "Akaya Telivigala", cursive;
   font-size: 20px;
 }
-
+.header_container a {
+  text-decoration: none;
+  color: whitesmoke;
+}
 /************************************************Styling for the about section ************************/
 .about_container {
   grid-row: 2 / 3;
