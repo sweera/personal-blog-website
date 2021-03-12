@@ -11,9 +11,10 @@ body {
 /*********************************Styling for Grid Conatiner******************************************/
 .container {
   display: grid;
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: 130px repeat(4, 1fr);
   grid-template-columns: 1fr;
 }
+/**********************************Styling for Menu bar************************************************/
 .header_container {
   grid-row: 1 / 2;
   background-color: black;
@@ -36,4 +37,18 @@ body {
   color: white;
   font-family: "Akaya Telivigala", cursive;
   font-size: 20px;
+}
+/****************************Styling for blog container************************************************/
+.blog_container{
+  grid-row: 2 / 3;
+  border: 1px solid rebeccapurple;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blog_image{
+  border: 1px solid red
+}
+.blog_post{
+  border: 1px solid gold;
 }

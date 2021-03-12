@@ -5,18 +5,34 @@
   }
   .container {
     /* background-color: red; */
-    max-width: 100% !important;
+    
   }
   .header_container {
-    display: grid !important;
-    grid-template-columns: 1fr !important;
-    overflow: hidden !important;
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
   }
   .logo {
-    grid-column: 1 / 1 !important;
+    grid-column: 1 / 2;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: "Akaya Telivigala", cursive;
   }
-  .nav {
-    grid-column: 2 / 2 !important;
+  .menu {
+    grid-column: 2 / 2;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+    /* align-items: center; */
+    list-style: none;
+  }
+  .menu_item a {
+    text-decoration: none;
+    color: white;
+    font-family: "Akaya Telivigala", cursive;
+    font-size: 20px;
   }
   /*************************************About Container***********************************************/
   .about_container {
