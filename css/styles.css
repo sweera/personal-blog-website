@@ -62,10 +62,8 @@ body {
 .about_heading {
   grid-row: 2 / 3;
   grid-column: 2 / 3;
-  
-  
 }
-.about_heading h1{
+.about_heading h1 {
   font-size: 50px;
   text-align: center;
   color: white;
@@ -74,9 +72,8 @@ body {
 .about_text {
   grid-row: 3 / 4;
   grid-column: 2 / 3;
-  
 }
-.about_text p{
+.about_text p {
   color: black;
   font-family: "Akaya Telivigala", cursive;
   font-size: 20px;

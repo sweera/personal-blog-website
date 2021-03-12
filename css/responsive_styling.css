@@ -20,19 +20,23 @@
   }
   /*************************************About Container***********************************************/
   .about_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr !important;
+    display: grid !important;
+    grid-template-columns: 1fr!important;
+    
   }
   .about_heading {
     grid-column: 1 / 1 !important;
   }
+  .about_heading h1{
+    font-size: 30px !important;
+  }
   .about_text {
     grid-column: 1 / 1 !important;
-    margin-right: 20px !important;
+    /* margin-right: 20px !important; */
   }
   .about_text p {
     color: white !important;
-    padding: 10px !important;
-    white-space: initial !important;
+    /* margin: 20px !important; */
+    
   }
 }
