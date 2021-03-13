@@ -10,9 +10,12 @@ body {
 }
 /*********************************Styling for Grid Conatiner******************************************/
 .container {
-  display: grid;
+  /* display: grid;
   grid-template-rows: 130px repeat(4, 1fr);
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr; */
+  display: flex;
+  flex-direction: column;
+  /* overflow: hidden; */
 }
 /**********************************Styling for Menu bar************************************************/
 .header_container {
@@ -39,16 +42,61 @@ body {
   font-size: 20px;
 }
 /****************************Styling for blog container************************************************/
-.blog_container{
+.blog_container {
   grid-row: 2 / 3;
-  border: 1px solid rebeccapurple;
+  /* border: 1px solid rebeccapurple; */
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
-.blog_image{
-  border: 1px solid red
+.blog_image {
+  /* border: 1px solid red */
 }
-.blog_post{
-  border: 1px solid gold;
+.blog_post {
+  /* border: 1px solid gold; */
+}
+/********************************Styling for previous blog container************************************/
+.previous_blog_container {
+  /* grid-row: 3 / 4; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  border: 1px solid #888888;
+  box-shadow: 3px 5px #888888;
+}
+.previous_blog_image img {
+  display: block !important;
+}
+/******************************Styling for author info container****************************************/
+.author_info_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #888888;
+  box-shadow: 3px 5px #888888;
+  /* margin: auto; */
+}
+.author_avatar img {
+  border: 1px solid black;
+  border-radius: 100%;
+  /* margin: auto; */
+}
+/**************************************Styling for footer***********************************************/
+.footer_container {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+}
+.footer_copyright {
+}
+.footer_icons {
+  /* justify-content: space-around; */
+  margin: auto;
+}
+.footer_icons a {
+  color: white;
+  padding-left: 5px;
 }
