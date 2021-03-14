@@ -55,6 +55,7 @@ body {
 }
 .blog_post {
   /* border: 1px solid gold; */
+  text-align: center;
 }
 /********************************Styling for previous blog container************************************/
 .previous_blog_container {
@@ -69,6 +70,10 @@ body {
 .previous_blog_image img {
   display: block !important;
 }
+.previous_blog a {
+  text-decoration: none;
+  color: black;
+}
 /******************************Styling for author info container****************************************/
 .author_info_container {
   display: flex;
@@ -76,12 +81,17 @@ body {
   align-items: center;
   border: 1px solid #888888;
   box-shadow: 3px 5px #888888;
+  margin: 20px;
+  /* padding: 20px; */
   /* margin: auto; */
 }
 .author_avatar img {
   border: 1px solid black;
   border-radius: 100%;
   /* margin: auto; */
+}
+.author_bio {
+  text-align: center;
 }
 /**************************************Styling for footer***********************************************/
 .footer_container {
