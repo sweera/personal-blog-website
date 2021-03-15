@@ -1,11 +1,13 @@
 @media screen and (min-width: 600px) and (max-width: 1824px) {
   .container {
-    display: grid;
-    grid-template-rows: 80px repeat(4, 1fr) !important;
-    grid-column: 1fr;
+    display: grid !important;
+    grid-template-rows: 80px repeat(3, 1fr) !important;
+    grid-template-columns: 100px 1fr 1fr !important;
+    height: 100vh !important;
   }
   .header_container {
     grid-row: 1 / 2 !important;
+    grid-column: 1 / 4 !important;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: black;
@@ -18,7 +20,6 @@
     font-size: 30px;
     font-family: "Akaya Telivigala", cursive;
     margin: auto !important;
-    
   }
   .menu {
     grid-column: 2 / 2;
@@ -26,7 +27,6 @@
     flex-direction: row !important;
     justify-content: space-around !important;
     list-style: none;
-    
   }
   .menu_item a {
     text-decoration: none;
@@ -35,7 +35,107 @@
     font-size: 20px;
   }
   /*******************************************Blog container********************************************/
-  .blog_container{
-    display: grid;
+  .blog_container {
+    grid-row: 2 / 3 !important;
+    grid-column: 1 / 4 !important;
+    /* display: grid !important;
+    grid-template-rows: 1fr 1fr !important;
+    grid-template-columns: 1fr !important; */
+  }
+  .blog_image {
+    grid-row: 1 / 2 !important;
+  }
+  .blog_image img {
+    width: 100% !important;
+    /* margin: auto !important; */
+    height: 100% !important;
+  }
+  .blog_post {
+    grid-row: 1 / 2 !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    /* margin: auto !important; */
+    /* overflow: hidden !important; */
+  }
+  .blog_post h2 {
+    font-size: 50px !important;
+  }
+  .blog_post p {
+    text-align: justify;
+    /* margin: auto !important; */
+  }
+  /********************************Previous Blog Posts*************************************************/
+  .previous_blog_container {
+    grid-row: 3 / 4 !important;
+    grid-column: 2 / 3 !important;
+    /* overflow: hidden !important; */
+    /* display: grid !important;
+    grid-template-rows: 1fr 1fr !important;
+    grid-template-columns: 1fr !important; */
+  }
+  .previous_blog_image {
+    grid-row: 1 / 2 !important;
+  }
+  .previous_blog_image img {
+    display: block !important;
+  }
+  .previous_blog {
+    grid-row: 2 / 3 !important;
+  }
+  .previous_blog h2 {
+    text-align: center !important;
+  }
+  .previous_blog p {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+  /***********************************Author Info*****************************************************/
+  .author_info_container {
+    grid-row: 3 / 4 !important;
+    grid-column: 3 / 4 !important;
+    /* margin: 0px !important; */
+    /* display: grid !important;
+    grid-template-rows: 1fr 1fr 1fr !important;
+    grid-template-columns: 1fr !important; */
+    /* overflow: hidden !important; */
+  }
+  .author_name {
+    grid-row: 1 / 2 !important;
+    margin: 0px !important;
+  }
+  .author_name h3 {
+    text-align: center !important;
+    font-size: 30px !important;
+  }
+  .author_avatar {
+    grid-row: 2 / 3 !important;
+    /* align-items: center !important; */
+  }
+  .author_avatar img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .author_bio {
+    grid-row: 3 / 4 !important;
+  }
+  /***************************************Footer Container*********************************************/
+  .footer_container {
+    grid-row: 4 / 5 !important;
+    grid-column: 1 / 4 !important;
+    display: grid !important;
+    grid-template-rows: 1fr !important;
+    grid-template-columns: 1fr 1fr !important;
+    /* overflow: hidden !important; */
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .footer_copyright {
+    grid-column: 1 / 2 !important;
+    grid-row: 1 / 1 !important;
+    margin: auto !important;
+  }
+  .footer_icons {
+    grid-column: 2 / 2 !important;
   }
 }
