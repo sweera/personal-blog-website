@@ -1,5 +1,6 @@
+/* @import url(header.css); */
 @media screen and (min-width: 600px) and (max-width: 1824px) {
-  .container {
+  .container_two {
     display: grid !important;
     grid-template-rows: 80px repeat(3, 1fr) !important;
     grid-template-columns: 100px 1fr 1fr !important;

@@ -1,6 +1,8 @@
 /******************************Styling for blog page**************************************************/
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
 @import url("blog_responsive.css");
+@import url("header.css");
+/* @import url("header.css"); */
 
 body {
   height: 100%;
@@ -9,7 +11,7 @@ body {
   /* display: inline; */
 }
 /*********************************Styling for Grid Conatiner******************************************/
-.container {
+.container_two {
   /* display: grid;
   grid-template-rows: 130px repeat(4, 1fr);
   grid-template-columns: 1fr; */
@@ -18,8 +20,8 @@ body {
   /* overflow: hidden; */
 }
 /**********************************Styling for Menu bar************************************************/
-.header_container {
-  grid-row: 1 / 2;
+/* .header_container {
+  
   background-color: black;
 }
 .logo {
@@ -40,10 +42,10 @@ body {
   color: white;
   font-family: "Akaya Telivigala", cursive;
   font-size: 20px;
-}
+} */
 /****************************Styling for blog container************************************************/
 .blog_container {
-  grid-row: 2 / 3;
+  /* grid-row: 2 / 3; */
   /* border: 1px solid rebeccapurple; */
   display: flex;
   flex-direction: column;
@@ -58,6 +60,7 @@ body {
 .blog_post {
   /* border: 1px solid gold; */
   text-align: center;
+  font-family: "Akaya Telivigala", cursive;
 }
 /********************************Styling for previous blog container************************************/
 .previous_blog_container {
@@ -68,6 +71,7 @@ body {
   margin: 10px;
   border: 1px solid #888888;
   box-shadow: 3px 5px #888888;
+  font-family: "Akaya Telivigala", cursive;
 }
 .previous_blog_image img {
   display: block !important;
@@ -84,6 +88,7 @@ body {
   border: 1px solid #888888;
   box-shadow: 3px 5px #888888;
   margin: 20px;
+  font-family: "Akaya Telivigala", cursive;
   /* padding: 20px; */
   /* margin: auto; */
 }
@@ -103,6 +108,7 @@ body {
   flex-direction: row;
   background-color: black;
   color: white;
+  font-family: "Akaya Telivigala", cursive;;
 }
 .footer_copyright {
 }
