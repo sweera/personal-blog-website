@@ -2,127 +2,126 @@
 @import url("responsive_styling.css");
 @import url("header.css");
 
-body{
+body {
   height: 100%;
   width: 100%;
   margin: 0px;
 }
-.container{
+/**************************************Styling for container*******************************************/
+.container {
   display: flex;
   flex-direction: column;
-  font-family: "Akaya Telivigala", cursive;;
+  font-family: "Akaya Telivigala", cursive;
 }
-.about_container{
-  background-image: url('../images/katie-drazdauskaite-y6Fa0cHKJGc-unsplash.jpg');
+/*****************************************************Hero image container******************************/
+.about_container {
+  background-image: url("../images/katie-drazdauskaite-y6Fa0cHKJGc-unsplash.jpg");
   background-size: 100% 100%;
 }
-.about_container h1{
+.about_container h1 {
   text-align: center;
   font-size: 40px;
 }
-.about_text{
+.about_text {
   color: white;
   font-size: 20px;
-  
 }
-.about_text p{
+.about_text p {
   margin-left: 10px;
 }
-.content_container{
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
+/************************************Card Layout Container**********************************************/
+.content_container {
   display: grid;
   grid-gap: 1rem;
 }
-.content_card_one{
+.content_card_one {
   border: 1px solid silver;
   margin: 10px;
 }
-.content_card_one h1{
+.content_card_one h1 {
   text-align: center;
 }
-.content_card_one img{
+.content_card_one img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   height: 300px;
   width: 400px;
 }
-.content_card_one h2{
+.content_card_one h2 {
   text-align: center;
   font-size: 23px;
 }
-.content_card_one p{
+.content_card_one p {
   font-size: 20px;
   text-align: center;
   margin: 0px;
 }
-.content_card_one a{
+.content_card_one a {
   text-align: center;
   text-decoration: none;
 }
 /**/
-.content_card_two{
+.content_card_two {
   border: 1px solid silver;
   margin: 10px;
 }
-.content_card_two h1{
+.content_card_two h1 {
   text-align: center;
 }
-.content_card_two img{
+.content_card_two img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   height: 300px;
   width: 400px;
 }
-.content_card_two h2{
+.content_card_two h2 {
   text-align: center;
   font-size: 23px;
 }
-.content_card_two p{
+.content_card_two p {
   font-size: 20px;
   text-align: center;
   margin: 0px;
 }
-.content_card_two a{
+.content_card_two a {
   text-decoration: none;
 }
 /**/
-.content_card_three{
+.content_card_three {
   border: 1px solid silver;
   margin: 10px;
 }
-.content_card_three h1{
+.content_card_three h1 {
   text-align: center;
 }
-.content_card_three img{
+.content_card_three img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   height: 300px;
   width: 400px;
 }
-.content_card_three h2{
+.content_card_three h2 {
   text-align: center;
   font-size: 23px;
 }
-.content_card_three p{
+.content_card_three p {
   font-size: 20px;
   text-align: center;
   margin: 0px;
 }
-.content_card_three a{
+.content_card_three a {
   text-decoration: none;
 }
+/*****************************************Footer Container***********************************************/
 .footer_container {
   display: flex;
   flex-direction: row;
   background-color: black;
   color: white;
-  font-family: "Akaya Telivigala", cursive;;
+  font-family: "Akaya Telivigala", cursive;
 }
 .footer_copyright {
 }

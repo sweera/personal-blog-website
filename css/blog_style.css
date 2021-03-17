@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
 @import url("blog_responsive.css");
 @import url("header.css");
-/* @import url("header.css"); */
 
 body {
   height: 100%;
@@ -10,49 +9,21 @@ body {
   margin: 0px;
   /* display: inline; */
 }
-/*********************************Styling for Grid Conatiner******************************************/
+/*********************************Styling for Grid Container******************************************/
 .container_two {
-  /* display: grid;
-  grid-template-rows: 130px repeat(4, 1fr);
-  grid-template-columns: 1fr; */
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
   /* overflow: hidden; */
 }
-/**********************************Styling for Menu bar************************************************/
-/* .header_container {
-  
-  background-color: black;
-}
-.logo {
-  text-decoration: none;
-  color: white;
-  font-size: 30px;
-  font-family: "Akaya Telivigala", cursive;
-}
-.menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-}
-.menu_item a {
-  text-decoration: none;
-  color: white;
-  font-family: "Akaya Telivigala", cursive;
-  font-size: 20px;
-} */
-/****************************Styling for blog container************************************************/
+/***********************************Styling for Blog Container******************************************/
 .blog_container {
-  /* grid-row: 2 / 3; */
-  /* border: 1px solid rebeccapurple; */
   display: flex;
   flex-direction: column;
   align-items: center;
   /* overflow: hidden; */
 }
-.blog_image img{
+.blog_image img {
   /* border: 1px solid red */
   height: 500px;
   width: 600px;
@@ -95,8 +66,8 @@ body {
 .author_avatar img {
   border: 1px solid black;
   border-radius: 100%;
-  height:200px; 
-  width:200px; 
+  height: 200px;
+  width: 200px;
   /* margin: auto; */
 }
 .author_bio {
@@ -108,9 +79,7 @@ body {
   flex-direction: row;
   background-color: black;
   color: white;
-  font-family: "Akaya Telivigala", cursive;;
-}
-.footer_copyright {
+  font-family: "Akaya Telivigala", cursive;
 }
 .footer_icons {
   /* justify-content: space-around; */

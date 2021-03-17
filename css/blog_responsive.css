@@ -39,9 +39,6 @@
   .blog_container {
     grid-row: 2 / 3 !important;
     grid-column: 1 / 4 !important;
-    /* display: grid !important;
-    grid-template-rows: 1fr 1fr !important;
-    grid-template-columns: 1fr !important; */
   }
   .blog_image {
     grid-row: 1 / 2 !important;

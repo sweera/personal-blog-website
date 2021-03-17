@@ -1,24 +1,23 @@
 .header_container {
-    /* grid-row: 1 / 2; */
-    background-color: black;
-  }
-  .logo {
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-    font-family: "Akaya Telivigala", cursive;
-  }
-  .menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-  }
-  .menu_item a {
-    text-decoration: none;
-    color: white;
-    font-family: "Akaya Telivigala", cursive;
-    font-size: 20px;
-  }
-  
+  /* grid-row: 1 / 2; */
+  background-color: black;
+}
+.logo {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-family: "Akaya Telivigala", cursive;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.menu_item a {
+  text-decoration: none;
+  color: white;
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 20px;
+}
