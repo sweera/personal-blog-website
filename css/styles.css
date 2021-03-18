@@ -15,6 +15,8 @@ body {
 }
 /*****************************************************Hero image container******************************/
 .about_container {
+  display: grid;
+  /* grid-template-columns: max-content; */
   background-image: url("../images/katie-drazdauskaite-y6Fa0cHKJGc-unsplash.jpg");
   background-size: 100% 100%;
 }
@@ -33,6 +35,15 @@ body {
 .content_container {
   display: grid;
   grid-gap: 1rem;
+}
+a>button{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-family: "Akaya Telivigala", cursive;
+  border: 1px solid white;
+  border-radius: 8%;
+  cursor: pointer;
 }
 .content_card_one {
   border: 1px solid silver;
@@ -116,7 +127,7 @@ body {
   text-decoration: none;
 }
 /*****************************************Footer Container***********************************************/
-.footer_container {
+footer {
   display: flex;
   flex-direction: row;
   background-color: black;

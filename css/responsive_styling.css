@@ -271,7 +271,10 @@
   .content_card_three {
     background-color: white !important;
   }
-  .footer_container {
+  button{
+    padding: 2px;
+  }
+  footer {
     grid-row: 4 / 5 !important;
     grid-column: 1 / 4 !important;
     display: grid !important;

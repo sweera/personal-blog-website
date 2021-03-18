@@ -24,10 +24,18 @@ body {
 }
 .blog_post {
   /* border: 1px solid gold; */
-  text-align: center;
-  font-family: "Akaya Telivigala", cursive;
+  /* text-align: center; */
+  /* font-family: "Akaya Telivigala", cursive; */
 }
-/********************************Styling for previous blog container************************************/
+.blog_post h2{
+  font-family: "Akaya Telivigala", cursive;
+  text-align: center;
+}
+.blog_post p{
+  text-align: justify;
+}
+/**
+******************************Styling for previous blog container************************************/
 .previous_blog_container {
   /* grid-row: 3 / 4; */
   display: flex;
@@ -38,12 +46,25 @@ body {
   box-shadow: 3px 5px #888888;
   font-family: "Akaya Telivigala", cursive;
 }
-.previous_blog_image img {
+.previous_blog_image figure img {
   display: block !important;
+  margin-left: auto;
+  margin-right: auto;
+  height:300px; 
+  width:400px; 
 }
 .previous_blog a {
   text-decoration: none;
   color: black;
+}
+a>button{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-family: "Akaya Telivigala", cursive;
+  border: 1px solid white;
+  border-radius: 8%;
+  cursor: pointer;
 }
 /******************************Styling for author info container****************************************/
 .author_info_container {
@@ -68,7 +89,7 @@ body {
   text-align: center;
 }
 /**************************************Styling for footer***********************************************/
-.footer_container {
+footer {
   display: flex;
   flex-direction: row;
   background-color: black;
