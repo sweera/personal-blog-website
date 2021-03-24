@@ -6,3 +6,6 @@ project came into being when I started pursuing the Nanodegree program at Udacit
 
 Screenshots
 
+![image](https://user-images.githubusercontent.com/55214400/112274529-d3d76580-8c3b-11eb-8ede-f6175e22ca81.png)
+
+
